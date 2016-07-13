@@ -1,0 +1,49 @@
+name: EntityKiller
+author: HimbeersaftLP
+main: HimbeersaftLP\EntityKiller\main
+version: 1.0.0
+api: [2.0.0]
+commands:
+    listentities:
+        description: "List all entities on your server."
+        usage: "/listents"
+        permission: ekill.list
+        aliases: [lents]
+    killall:
+        description: "Kill all entitites except players on your server."
+        usage: "/killaents"
+        permission: ekill.all
+        aliases: [kall]
+    killcreatures:
+        description: "Kill all creatures on your server."
+        usage: "/killeents"
+        permission: ekill.creatures
+        aliases: [kcrea]
+    killunknown:
+        description: "Kill all unknown entities on your server. (Items, Fishing-Rod-Bobbers, ...)"
+        usage: "/killuents"
+        permission: ekill.unknown
+        aliases: [kunk]
+    killplayers:
+        description: "Kill all human-entitites (players) on your server."
+        usage: "/killhents"
+        permission: ekill.player
+        aliases: [kplr]
+    killeverything:
+        description: "Kill every entitiy: creatures, players, items..."
+        usage: "/killeents"
+        permission: ekill.every
+        aliases: [kevery]
+permissions:
+    ekill.list:
+        default: op
+    ekill.all:
+        default: op
+    ekill.creatures:
+        default: op
+    ekill.unknown:
+        default: op
+    ekill.player:
+        default: op
+    ekill.every:
+        default: op
