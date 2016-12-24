@@ -8,7 +8,7 @@ use pocketmine\utils\TextFormat as TF;
 use pocketmine\entity\Entity;
 use pocketmine\entity\Human;
 use pocketmine\entity\Creature;
-class Main extends PluginBase implements Listener{
+class main extends PluginBase implements Listener{
      
      public function onEnable(){
           $this->getServer()->getPluginManager()->registerEvents($this,$this);
