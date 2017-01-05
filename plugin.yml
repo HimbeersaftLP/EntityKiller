@@ -1,8 +1,8 @@
 name: EntityKiller
 author: HimbeersaftLP
 main: HimbeersaftLP\EntityKiller\main
-version: 1.0.0
-api: [2.0.0]
+version: 1.0.1
+api: [2.0.0, 3.0.0, 3.0.0-ALPHA1]
 commands:
     listentities:
         description: "List all entities on your server."
