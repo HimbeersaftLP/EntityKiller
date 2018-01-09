@@ -15,7 +15,7 @@ class main extends PluginBase implements Listener{
           $this->getLogger()->info("EntityKiller by HimbeersaftLP enabled!");
      }
      
-     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
+     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool{
           switch($command->getName()){
                case "listentities":
                     $humans = 0;
